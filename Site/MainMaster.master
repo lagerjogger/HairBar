@@ -1,0 +1,92 @@
+﻿<%@ Master Language="VB" CodeFile="MainMaster.master.vb" Inherits="MainMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="title" content="Hair Bar Louisville" />
+    <meta name="description" content="Discover Louisville's PREMIER boutique salon! Services include hair coloring and cutting, ombre, extensions, updos, and more!" />
+    <meta name="author" content="Matthew R. Cook" />
+    <%--<link rel="icon" href="../../favicon.ico" />--%>
+
+    <title>Hair Bar</title>
+	
+	<!-- Google Web Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,700|Shadows+Into+Light|Bitter' rel='stylesheet' type='text/css' />
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.css" rel="stylesheet" />
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet" />
+
+	<!-- HairBar styles -->
+	<link href="css/hairbar.css" rel="stylesheet" />
+
+    <script type="text/javascript">
+    	(function (i, s, o, g, r, a, m) {
+    		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+    			(i[r].q = i[r].q || []).push(arguments)
+    		}, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    	})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    	ga('create', 'UA-55683578-1', 'auto');
+    	ga('send', 'pageview');
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="FixedNavbarPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+
+		<!-- Begin page content -->
+		<div class="container">
+			<asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+		</div>
+
+		<%--
+			<!-- This is a sticky footer -->
+			<footer class="footer">
+			<div class="container">
+				<span class="text-muted">Place sticky footer content here.</span>
+			</div>
+		</footer>--%>
+
+        <div id="FooterDiv">
+            <%--<div id="FooterDivBackground"></div>--%>
+            <div id="FooterDivContent" class="container">
+                <img src="images/hr.png" border="0" alt="" /><br />
+				<div style="font-weight: bold; margin-bottom: 5px;">Stay connected with me to view my latest work!</div>
+                <a href="https://www.facebook.com/HairBarLouisville" target="_blank"><img src="images/facebook.png" border="0" alt="Find us on Facebook!" class="FooterIcon" /></a>
+                <a href="https://twitter.com/HairbyJenniferC" target="_blank"><img src="images/twitter.png" border="0" alt="Follow us on Twitter!" class="FooterIcon" /></a>
+                <a href="http://instagram.com/HairBarLouisville" target="_blank"><img src="images/instagram.png" border="0" alt="Follow us on Instagram!" class="FooterIcon" /></a>
+                <a href="http://www.yelp.com/biz/hair-bar-louisville" target="_blank"><img src="images/yelp.png" border="0" alt="Find us on Yelp!" class="FooterIcon" /></a>
+				<script type="application/javascript" src="//www.weddingwire.com/assets/vendor/widgets/review-me.js"></script><div id="ww-review-me" class="btn btn-primary btn-large" style="margin-top: 10px;"></div><script type="application/javascript">WeddingWire.ensureInit(function () { WeddingWire.reviewMeInit({ "divId": "ww-review-me", "vendor_id": "50d27b698aa41d4a", "buttonColor": "#41a317" }); });</script>
+            </div>
+        </div>
+
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+		<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="js/ie10-viewport-bug-workaround.js"></script>
+		<asp:ContentPlaceHolder ID="PageFooterScriptsPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
