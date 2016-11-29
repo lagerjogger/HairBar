@@ -105,7 +105,7 @@
         <div class="col-lg-3 col-md-6 col-sm-6 featurette" style="font-family: Bitter;">
             <h2><a href="Specials.aspx">Specials</a></h2>
             <p>
-                Click here to view our <span style="font-weight: bold; color: #247222;">Holiday <span style="color: #d52422;">specials!</span></span>
+                Click here to view our current specials!
             </p>
             <p style="margin-top: 20px;"><a class="btn btn-default" href="Specials.aspx">View specials &raquo;</a></p>
         </div>
