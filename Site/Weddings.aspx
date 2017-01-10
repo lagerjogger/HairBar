@@ -102,7 +102,7 @@
 					</tr>
 					<tr>
 						<td>Bride (includes trial run)</td>
-						<td style="text-align: right;">$135</td>
+						<td style="text-align: right;">$150</td>
 					</tr>
 					<tr class="table-alternate-row">
 						<td>Bridesmaids</td>
@@ -118,7 +118,7 @@
 					</tr>
 					<tr>
 						<td>Extensions</td>
-						<td style="text-align: right;">$30</td>
+						<td style="text-align: right;">$40</td>
 					</tr>
 				</table>
 			</div>
