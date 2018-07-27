@@ -71,7 +71,7 @@
                 <a href="https://twitter.com/HairbyJenniferC" target="_blank"><img src="images/twitter.png" border="0" alt="Follow us on Twitter!" class="FooterIcon" /></a>
                 <a href="http://instagram.com/HairBarLouisville" target="_blank"><img src="images/instagram.png" border="0" alt="Follow us on Instagram!" class="FooterIcon" /></a>
                 <a href="http://www.yelp.com/biz/hair-bar-louisville" target="_blank"><img src="images/yelp.png" border="0" alt="Find us on Yelp!" class="FooterIcon" /></a>
-				<script type="application/javascript" src="//www.weddingwire.com/assets/vendor/widgets/review-me.js"></script><div id="ww-review-me" class="btn btn-primary btn-large" style="margin-top: 10px;"></div><script type="application/javascript">WeddingWire.ensureInit(function () { WeddingWire.reviewMeInit({ "divId": "ww-review-me", "vendor_id": "50d27b698aa41d4a", "buttonColor": "#41a317" }); });</script>
+				<script type="application/javascript" src="//www.weddingwire.com/assets/vendor/widgets/review-me.js"></script><div style="text-align: center;"><div id="ww-review-me" class="btn btn-primary btn-large" style="margin-top: 10px; display: inline-block;"></div></div><script type="application/javascript">WeddingWire.ensureInit(function () { WeddingWire.reviewMeInit({ "divId": "ww-review-me", "vendor_id": "50d27b698aa41d4a", "buttonColor": "#41a317" }); });</script>
             </div>
         </div>
 

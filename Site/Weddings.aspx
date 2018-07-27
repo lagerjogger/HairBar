@@ -90,7 +90,7 @@
 			<p style="text-align: justify;">Your wedding day is one of the most important events of your life, and I would be honored to be a part of it! I can assure that if you chose me as your wedding day stylist, you will have one less thing to worry about.</p>
 			<!-- This isn't right, but has to go here because of the fixed navbar at the top -->
 			<a name="prices"></a>
-			<p style="text-align: justify;">I have been a hairstylist for 11 years, and I specialize in bridal and special occasion hair. Your wedding day should be as stress-free as possible; that’s why I’ll travel to you and do hair for anyone who wants to feel pretty for your big day! My goal is to ensure you and your bridal party go the whole day without worrying about how you look, from your first pictures through your reception.</p>
+			<p style="text-align: justify;">I have been a hairstylist for 12 years, and I specialize in bridal and special occasion hair. Your wedding day should be as stress-free as possible; that’s why I’ll travel to you and do hair for anyone who wants to feel pretty for your big day! My goal is to ensure you and your bridal party go the whole day without worrying about how you look, from your first pictures through your reception.</p>
 		</div>
 	</div>
 	<div class="row" style="margin-bottom: 15px;">
@@ -102,15 +102,15 @@
 					</tr>
 					<tr>
 						<td>Bride (includes trial run)</td>
-						<td style="text-align: right;">$150</td>
+						<td style="text-align: right;">$160</td>
 					</tr>
 					<tr class="table-alternate-row">
 						<td>Bridesmaids</td>
-						<td style="text-align: right;">$65</td>
+						<td style="text-align: right;">$75</td>
 					</tr>
 					<tr>
 						<td>Mother Style</td>
-						<td style="text-align: right;">$40</td>
+						<td style="text-align: right;">$45</td>
 					</tr>
 					<tr class="table-alternate-row">
 						<td>Flower girls</td>
@@ -118,7 +118,7 @@
 					</tr>
 					<tr>
 						<td>Extensions</td>
-						<td style="text-align: right;">$40</td>
+						<td style="text-align: right;">$50</td>
 					</tr>
 				</table>
 			</div>
@@ -153,6 +153,14 @@
 				<p style="text-align: center;"><a href="https://www.facebook.com/HairBarLouisville" target="_blank"><img src="images/facebook.png" border="0" alt="Find us on Facebook!" class="FooterIcon" /></a> <a href="http://instagram.com/HairBarLouisville" target="_blank"><img src="images/instagram.png" border="0" alt="Follow us on Instagram!" class="FooterIcon" /></a></p>
 				<p>Make sure you follow me while you're there!</p>
 			</div>
+            <div class="col-sm-6 col-lg-12" style="margin-bottom: 20px; text-align: center;">
+                <h3>3x Wedding Wire Couples' Choice Award Winner</h3>
+                <p>
+                    <img src="images/CouplesChoiceAward2018.png" alt="Wedding Wire Couples' Choice Award 2018 Winner" style="width: 120px;" />
+                    <img src="images/CouplesChoiceAward2017.png" alt="Wedding Wire Couples' Choice Award 2017 Winner" style="width: 120px;" />
+                    <img src="images/CouplesChoiceAward2016.png" alt="Wedding Wire Couples' Choice Award 2016 Winner" style="width: 120px;" />
+                </p>
+            </div>
 			<div class="col-sm-6 col-lg-12">
 				<h3>What Others Are Saying</h3>
 				<script src='//www.weddingwire.com/assets/vendor/widgets/my-reviews-477a27662bf1bc2843763ee1950ed856.js' type='application/javascript'></script>

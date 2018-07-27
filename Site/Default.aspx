@@ -73,7 +73,7 @@
 			</div>--%>
 			<div class="item active">
 				<%--<div class="hero-unit-content">--%>
-					<img id="CouplesChoiceAwardBanner" src="images/CouplesChoiceAward.png" alt="" style="width: 100%; height: auto;" />
+					<img id="CouplesChoiceAwardBanner" src="images/CouplesChoiceAward2018_banner.png" alt="" style="width: 100%; height: auto;" />
 				<%--</div>--%>
 			</div>
 			<%--<div class="item active">

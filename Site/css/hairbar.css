@@ -42,6 +42,10 @@ p
     margin-bottom: 15px;
 }
 
+.ww-button {
+    padding: 10px 15px !important;
+}
+
 a {
     color: #518dc1;
 }
