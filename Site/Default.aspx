@@ -65,17 +65,17 @@
 			<li data-target="#myCarousel" data-slide-to="1"></li>
 		</ol>--%>
 		<div class="carousel-inner">
-			<%--<div class="item active">
+			<div class="item active">
 				<img id="MovingBannerImage" src="images/MovingBanner.png" alt="">
 				<div style="position: absolute; right: 10px; bottom: 10px;">
 					<p style="margin-top: 30px;"><a href="Contact.aspx#Moving" class="btn btn-primary btn-large">Find Out Where &raquo;</a></p>
 				</div>
-			</div>--%>
-			<div class="item active">
-				<%--<div class="hero-unit-content">--%>
-					<img id="CouplesChoiceAwardBanner" src="images/CouplesChoiceAward2018_banner.png" alt="" style="width: 100%; height: auto;" />
-				<%--</div>--%>
 			</div>
+			<%-- %><div class="item active">
+				<%--<div class="hero-unit-content">--%
+					<img id="CouplesChoiceAwardBanner" src="images/4YearsCouplesChoiceAwards_banner.png" alt="" style="width: 100%; height: auto;" />
+				<%--</div>--%
+			</div>--%>
 			<%--<div class="item active">
 				<div class="hero-unit-content">
 					<h1 style="position: absolute; top: 75px; right: 90px; font-family: Shadows Into Light;">Schedule your appointment online!</h1>
@@ -114,10 +114,8 @@
             <p>(502) 550-3650</p>
             <p><a href="mailto:HairByJenniferKy@gmail.com">HairByJenniferKy@gmail.com</a></p>
             <p>
-                12689 Shelbyville Rd<br />
-				Sola Salons, Studio 16<br />
+                11408 Shelbyville Rd, Unit 4<br />
 				Louisville, KY 40243<br /><br />
-				(In the Eastgate Shopping Center near Kroger)
             </p>
             <p style="margin-top: 20px;"><a class="btn btn-default" href="Contact.aspx">View details &raquo;</a></p>
         </div>

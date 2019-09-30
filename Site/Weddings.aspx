@@ -90,7 +90,7 @@
 			<p style="text-align: justify;">Your wedding day is one of the most important events of your life, and I would be honored to be a part of it! I can assure that if you chose me as your wedding day stylist, you will have one less thing to worry about.</p>
 			<!-- This isn't right, but has to go here because of the fixed navbar at the top -->
 			<a name="prices"></a>
-			<p style="text-align: justify;">I have been a hairstylist for 12 years, and I specialize in bridal and special occasion hair. Your wedding day should be as stress-free as possible; that’s why I’ll travel to you and do hair for anyone who wants to feel pretty for your big day! My goal is to ensure you and your bridal party go the whole day without worrying about how you look, from your first pictures through your reception.</p>
+			<p style="text-align: justify;">I have been a hairstylist for <%=Math.Floor(DateDiff(DateInterval.Day, Date.Parse("10/1/2005"), Now) / 365.25) %> years, and I specialize in bridal and special occasion hair. Your wedding day should be as stress-free as possible; that’s why I’ll travel to you and do hair for anyone who wants to feel pretty for your big day! My goal is to ensure you and your bridal party go the whole day without worrying about how you look, from your first pictures through your reception.</p>
 		</div>
 	</div>
 	<div class="row" style="margin-bottom: 15px;">
@@ -154,10 +154,13 @@
 				<p>Make sure you follow me while you're there!</p>
 			</div>
             <div class="col-sm-6 col-lg-12" style="margin-bottom: 20px; text-align: center;">
-                <h3>3x Wedding Wire Couples' Choice Award Winner</h3>
+                <h3>4x Wedding Wire Couples' Choice Award Winner</h3>
                 <p>
+                    <img src="images/CouplesChoiceAward2019.png" alt="Wedding Wire Couples' Choice Award 2019 Winner" style="width: 120px; margin-right: 10px;" />
                     <img src="images/CouplesChoiceAward2018.png" alt="Wedding Wire Couples' Choice Award 2018 Winner" style="width: 120px;" />
-                    <img src="images/CouplesChoiceAward2017.png" alt="Wedding Wire Couples' Choice Award 2017 Winner" style="width: 120px;" />
+                </p>
+                <p>
+                    <img src="images/CouplesChoiceAward2017.png" alt="Wedding Wire Couples' Choice Award 2017 Winner" style="width: 120px; margin-right: 10px;" />
                     <img src="images/CouplesChoiceAward2016.png" alt="Wedding Wire Couples' Choice Award 2016 Winner" style="width: 120px;" />
                 </p>
             </div>

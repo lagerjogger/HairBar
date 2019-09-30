@@ -9,53 +9,57 @@
 	<div class="col-md-9" style="float: left; margin-bottom: 25px;">
 		<table style="width: 100%;">
 			<tr>
-				<td colspan="2"><strong>Styling</strong></td>
+				<td colspan="2"><h3>Styling</h3></td>
 			</tr>
 			<tr>
-				<td>Women's Haircuts (shampoo and style)</td>
-				<td style="text-align: right;">$49</td>
+				<td>Long Haircut</td>
+				<td style="text-align: right;">$52</td>
 			</tr>
 			<tr class="table-alternate-row">
-				<td>Men's Haircuts</td>
-				<td style="text-align: right;">$22</td>
+				<td>Short Haircut</td>
+				<td style="text-align: right;">$37</td>
 			</tr>
 			<tr>
-				<td>Children's Haircuts</td>
+				<td>Clipper Haircut</td>
+				<td style="text-align: right;">$23</td>
+			</tr>
+			<tr class="table-alternate-row">
+				<td>Children's Haircut</td>
 				<td style="text-align: right;"></td>
 			</tr>
-			<tr class="table-alternate-row">
+			<tr>
 				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Under 10</td>
 				<td style="text-align: right;">$15</td>
 			</tr>
-			<tr>
+			<tr class="table-alternate-row">
 				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10 - 13</td>
 				<td style="text-align: right;">$20</td>
 			</tr>
-			<tr class="table-alternate-row">
+			<tr>
 				<td>Shampoo and Style</td>
 				<td style="text-align: right;">$35</td>
 			</tr>
-			<tr>
+			<tr class="table-alternate-row">
 				<td>Updos/Specialty styles</td>
 				<td style="text-align: right;">$65 and up</td>
 			</tr>
-			<tr class="table-alternate-row">
-				<td>Conditioning Treatment</td>
-				<td style="text-align: right;">$20</td>
+			<tr>
+				<td>Conditioning Treatments</td>
+				<td style="text-align: right;">$15 and up</td>
 			</tr>
 		</table>
 		<br />
 		<table style="width: 100%;">
 			<tr>
-				<td colspan="2"><strong>Chemical Services</strong></td>
+				<td colspan="2"><h3>Chemical Services</h3></td>
 			</tr>
 			<tr>
 				<td>All over Color</td>
-				<td style="text-align: right;">$70</td>
+				<td style="text-align: right;">$75</td>
 			</tr>
 			<tr class="table-alternate-row">
 				<td>Newgrowth</td>
-				<td style="text-align: right;">$60</td>
+				<td style="text-align: right;">$63</td>
 			</tr>
 			<tr>
 				<td>Mini Highlights</td>
@@ -63,49 +67,53 @@
 			</tr>
 			<tr class="table-alternate-row">
 				<td>Partial Highlight</td>
-				<td style="text-align: right;">$80</td>
+				<td style="text-align: right;">$85</td>
 			</tr>
 			<tr>
 				<td>Full Highlight</td>
-				<td style="text-align: right;">$95</td>
+				<td style="text-align: right;">$100</td>
 			</tr>
 			<tr class="table-alternate-row">
 				<td>Color with Full Highlights</td>
-				<td style="text-align: right;">$115</td>
+				<td style="text-align: right;">$121</td>
 			</tr>
 			<tr>
 				<td>Color with Partial Highlights</td>
-				<td style="text-align: right;">$100</td>
+				<td style="text-align: right;">$105</td>
 			</tr>
 			<tr class="table-alternate-row">
 				<td>Ombre</td>
-				<td style="text-align: right;">$100</td>
+				<td style="text-align: right;">$105</td>
 			</tr>
 			<tr>
 				<td>Balayage</td>
-				<td style="text-align: right;">$120</td>
+				<td style="text-align: right;">$126</td>
 			</tr>
 			<tr class="table-alternate-row">
 				<td>Color + Balayage</td>
-				<td style="text-align: right;">$140</td>
+				<td style="text-align: right;">$147</td>
 			</tr>
 			<tr>
-				<td>Balayage touch-up</td>
-				<td style="text-align: right;">$75</td>
+				<td>Partial Balayage</td>
+				<td style="text-align: right;">$115</td>
 			</tr>
 			<tr class="table-alternate-row">
+				<td>Balayage touch-up</td>
+				<td style="text-align: right;">$80</td>
+			</tr>
+			<tr>
 				<td>Color Correction</td>
 				<td style="text-align: right;">$100/hour</td>
 			</tr>
-			<tr>
+			<tr class="table-alternate-row">
 				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;all haircuts with chemical services</td>
-				<td style="text-align: right;">$38</td>
+				<td style="text-align: right;">$40</td>
 			</tr>
 		</table>
 		<br />
 		<table style="width: 100%;">
 			<tr>
-				<td colspan="2"><strong>Wedding Services</strong></td>
+				<td colspan="2"><h3>Wedding Services</h3></td>
 			</tr>
 			<%--<tr>
 				<td>Bride (includes trial run)</td>
@@ -127,7 +135,7 @@
 		<br />
 		<table style="width: 100%;">
 			<tr>
-				<td colspan="2"><strong>Waxing</strong></td>
+				<td colspan="2"><h3>Waxing</h3></td>
 			</tr>
 			<tr>
 				<td>Eyebrow wax</td>

@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 	<script type="text/javascript">
     	window.onload = function () {
-    		document.getElementById("mapFrame").src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1566.746690495985!2d-85.51936729248494!3d38.24486172847824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xe4f0f546db704c28!2sSola+Salons+Middletown!5e0!3m2!1sen!2sus!4v1435202209298";
+    		document.getElementById("mapFrame").src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.518241803769!2d-85.5451497075852!3d38.24428498798968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88699f68c6e0d933%3A0xd516433359e08c6c!2s11408%20Shelbyville%20Rd%2C%20Louisville%2C%20KY%2040243!5e0!3m2!1sen!2sus!4v1569811607776!5m2!1sen!2sus";
 		}
     </script>
 
@@ -36,7 +36,6 @@
 				<a href="https://www.facebook.com/HairBarLouisville" target="_blank"><img src="images/facebook.png" border="0" alt="Find us on Facebook!" class="FooterIcon" /></a>
 				<a href="https://twitter.com/HairbyJenniferC" target="_blank"><img src="images/twitter.png" border="0" alt="Follow us on Twitter!" class="FooterIcon" /></a>
 				<a href="http://instagram.com/HairBarLouisville" target="_blank"><img src="images/instagram.png" border="0" alt="Follow us on Instagram!" class="FooterIcon" /></a>
-				<a href="http://www.yelp.com/biz/hair-bar-louisville" target="_blank"><img src="images/yelp.png" border="0" alt="Find us on Yelp!" class="FooterIcon" /></a>
 			</p>
 
 			<h3>Send us a message</h3>
@@ -58,10 +57,8 @@
 		<div class="col-md-12 col-lg-7">
 			<p>
 				<strong>Address:</strong><br />
-				12689 Shelbyville Rd<br />
-				Sola Salons, Studio 16<br />
-				Louisville, KY 40243<br /><br />
-				(In the Eastgate Shopping Center near Kroger)
+				11408 Shelbyville Rd, Unit 4<br />
+				Louisville, KY 40243<br />
 			</p>
 			<div class="iframe-rwd" style="margin-bottom: 25px;">
 				<iframe id="mapFrame" width="600" height="450" frameborder="0" style="border:0"></iframe>
