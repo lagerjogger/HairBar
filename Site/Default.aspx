@@ -35,7 +35,7 @@
 				margin-bottom: 15px;
 			}
             .carousel-inner img {
-                margin-left: -300px;
+                margin-left: -350px;
             }
 		}
 		@media (max-width: 543px) {
@@ -43,7 +43,7 @@
 				margin-bottom: 25px;
 			}
             .carousel-inner img {
-                margin-left: -300px;
+                margin-left: -400px;
             }
 		}
 	</style>
