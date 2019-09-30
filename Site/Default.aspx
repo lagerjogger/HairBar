@@ -34,11 +34,17 @@
 			.featurette {
 				margin-bottom: 15px;
 			}
+            .carousel-inner img {
+                margin-left: -300px;
+            }
 		}
 		@media (max-width: 543px) {
 			.featurette {
 				margin-bottom: 25px;
 			}
+            .carousel-inner img {
+                margin-left: -300px;
+            }
 		}
 	</style>
 </asp:Content>
