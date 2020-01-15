@@ -14,12 +14,15 @@
 				<p>Toggleable via the navbar brand.</p>
 			</div>
 		</div>
-		<nav class="navbar navbar-light navbar-static-top bg-faded">
-			<div class="container" style="position: relative;">
-				<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">&#9776;</button>
+		<nav class="navbar navbar-toggleable-sm navbar-expand-md fixed-top navbar-light bg-light">
+			<%--<div class="container" style="position: relative;">--%>
 				<a class="navbar-brand" href="Default.aspx"><img src="images/Logo2_small.png" height="70" width="159" alt="Hair Bar" /></a>
-				<div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2" style="position: relative;">
-					<ul class="nav navbar-nav">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#CollapsingNavbar">
+                    <span class="navbar-toggler-icon"></span>
+				</button>
+                
+				<div class="collapse navbar-collapse" id="CollapsingNavbar">
+					<ul class="navbar-nav mr-auto">
 						<li class="nav-item">
 							<asp:HyperLink ID="ServicesLink" runat="server" NavigateUrl="~/Services.aspx" CssClass="nav-link" Text="Services" />
 						</li>
@@ -37,7 +40,7 @@
 						</li>
 					</ul>
 				</div>
-			</div>
+			<%--</div>--%>
 		</nav>
 	</div>
 </asp:Content>

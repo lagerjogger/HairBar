@@ -58,39 +58,45 @@
     </div>
 
 	<div class="row" style="text-align: center; margin-bottom: 15px;">
-		<div style="padding: 15px; text-align: center;">
+		<div style="padding: 15px; text-align: center; width: 100%;">
 			<span class="BookNowText" style="">Schedule your appointment online now!</span> 
 			<a href="http://hairbarlouisville.salonrunner.com" class="btn btn-primary btn-lg BookNowButton" target="_blank">Book Now &raquo;</a>
 		</div>
 	</div>
 
-	<div id="myCarousel" class="carousel slide well">
+	<div id="myCarousel" class="carousel slide well" data-ride="carousel">
 		<!-- Indicators -->
-		<%--<ol class="carousel-indicators">
+		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#myCarousel" data-slide-to="1"></li>
-		</ol>--%>
+		</ol>
 		<div class="carousel-inner">
-			<div class="item active">
-				<img id="MovingBannerImage" src="images/MovingBanner.png" alt="">
+			<div class="carousel-item active">
+				<div class="hero-unit-content">
+					<img id="CouplesChoiceAwardBanner" src="images/5YearsCouplesChoiceAwards_banner.png" alt="" style="width: 100%; height: auto;" />
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img id="MovingBannerImage" src="images/MovingBanner.png" alt="" />
 				<div style="position: absolute; right: 10px; bottom: 10px;">
 					<p style="margin-top: 30px;"><a href="Contact.aspx#Moving" class="btn btn-primary btn-large">Find Out Where &raquo;</a></p>
 				</div>
 			</div>
-			<%-- %><div class="item active">
-				<%--<div class="hero-unit-content">--%
-					<img id="CouplesChoiceAwardBanner" src="images/4YearsCouplesChoiceAwards_banner.png" alt="" style="width: 100%; height: auto;" />
-				<%--</div>--%
-			</div>--%>
-			<%--<div class="item active">
+			<%--<div class="item">
 				<div class="hero-unit-content">
 					<h1 style="position: absolute; top: 75px; right: 90px; font-family: Shadows Into Light;">Schedule your appointment online!</h1>
 					<p style="position: absolute; top: 135px; right: 90px;"><a href="http://hairbarlouisville.salonrunner.com" class="btn btn-primary btn-large" target="_blank">Book Now &raquo;</a></p>
 				</div>
 			</div>--%>
 		</div>
-		<%--<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-		<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>--%>
+	<%--	<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>--%>
 	</div><!-- /.carousel -->
 
 	<div class="row">

@@ -154,7 +154,10 @@
 				<p>Make sure you follow me while you're there!</p>
 			</div>
             <div class="col-sm-6 col-lg-12" style="margin-bottom: 20px; text-align: center;">
-                <h3>4x Wedding Wire Couples' Choice Award Winner</h3>
+                <h3>5x Wedding Wire Couples' Choice Award Winner</h3>
+                <p>
+                    <img src="images/CouplesChoiceAward2020.png" alt="Wedding Wire Couples' Choice Award 2020 Winner" style="width: 120px;" />
+                </p>
                 <p>
                     <img src="images/CouplesChoiceAward2019.png" alt="Wedding Wire Couples' Choice Award 2019 Winner" style="width: 120px; margin-right: 10px;" />
                     <img src="images/CouplesChoiceAward2018.png" alt="Wedding Wire Couples' Choice Award 2018 Winner" style="width: 120px;" />
