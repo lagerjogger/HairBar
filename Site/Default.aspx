@@ -34,7 +34,7 @@
 			.featurette {
 				margin-bottom: 15px;
 			}
-            .carousel-inner img {
+            .carousel-inner img.reposition {
                 margin-left: -350px;
             }
 		}
@@ -42,7 +42,7 @@
 			.featurette {
 				margin-bottom: 25px;
 			}
-            .carousel-inner img {
+            .carousel-inner img.reposition {
                 margin-left: -400px;
             }
 		}
@@ -77,7 +77,7 @@
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img id="MovingBannerImage" src="images/MovingBanner.png" alt="" />
+				<img id="MovingBannerImage" src="images/MovingBanner.png" alt="" class="reposition" />
 				<div style="position: absolute; right: 10px; bottom: 10px;">
 					<p style="margin-top: 30px;"><a href="Contact.aspx#Moving" class="btn btn-primary btn-large">Find Out Where &raquo;</a></p>
 				</div>
