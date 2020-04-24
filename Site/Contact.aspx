@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Hair Bar - Contact" Language="VB" MasterPageFile="~/SubMaster.master" AutoEventWireup="false" CodeFile="Contact.aspx.vb" Inherits="Contact" %>
+﻿<%@ Page Title="Hair Bar - Contact" Language="VB" MasterPageFile="~/MainMaster.master" AutoEventWireup="false" CodeFile="Contact.aspx.vb" Inherits="Contact" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 	<script type="text/javascript">
@@ -6,19 +6,6 @@
     		document.getElementById("mapFrame").src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.518241803769!2d-85.5451497075852!3d38.24428498798968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88699f68c6e0d933%3A0xd516433359e08c6c!2s11408%20Shelbyville%20Rd%2C%20Louisville%2C%20KY%2040243!5e0!3m2!1sen!2sus!4v1569811607776!5m2!1sen!2sus";
 		}
     </script>
-
-	<style type="text/css">
-		#MovingBannerDiv {
-			height: 150px;
-		}
-		#MovingDiv h2 {
-			font-family: Shadows Into Light;
-			font-weight: bold;
-			font-size: 40pt;
-			color: #222d60;
-			margin-bottom: 25px;
-		}
-	</style>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContentPlaceHolder" runat="server">
@@ -34,7 +21,6 @@
 			<p><strong>Email:</strong> <a href="mailto:HairByJenniferKy@gmail.com">HairByJenniferKy@gmail.com</a></p>
 			<p>
 				<a href="https://www.facebook.com/HairBarLouisville" target="_blank"><img src="images/facebook.png" border="0" alt="Find us on Facebook!" class="FooterIcon" /></a>
-				<a href="https://twitter.com/HairbyJenniferC" target="_blank"><img src="images/twitter.png" border="0" alt="Follow us on Twitter!" class="FooterIcon" /></a>
 				<a href="http://instagram.com/HairBarLouisville" target="_blank"><img src="images/instagram.png" border="0" alt="Follow us on Instagram!" class="FooterIcon" /></a>
 			</p>
 
@@ -52,7 +38,7 @@
 				Message: <br />
 				<asp:TextBox ID="ContactMessageTextBox" runat="server" TextMode="MultiLine" Rows="6" style="width: 95%;" />
 			</p>
-			<p style="text-align: center;"><asp:LinkButton ID="SubmitFormButton" runat="server" CssClass="btn btn-primary">Submit &raquo;</asp:LinkButton></p>
+			<p style="text-align: center;"><asp:LinkButton ID="SubmitFormButton" runat="server" CssClass="btn">Submit &raquo;</asp:LinkButton></p>
 		</div>
 		<div class="col-md-12 col-lg-7">
 			<p>

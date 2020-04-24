@@ -3,22 +3,21 @@
     background: #adadad url('../images/contemporary_china_2.png') repeat;
     color: #202020;
     padding-bottom: 0px;
-    font-family: Bitter;
-    font-size: 12pt;
-    line-height: 20px;
+    font-family: 'Pragati Narrow';
+    font-size: 15pt;
+    line-height: 23px;
 }
 
 h1 
 {
-    font-family: Lobster Two;
+    font-family: 'Qwigley';
     font-weight: 400;
-    font-size: 36pt;
+    font-size: 48pt;
 }
-h2 
-{
-    font-family: Lobster Two;
+h2 {
+    font-family: 'Qwigley';
     font-weight: 400;
-    font-size: 30pt;
+    font-size: 40pt;
 }
 h2 a 
 {
@@ -30,9 +29,9 @@ h2 a:hover {
     text-decoration: none;
 }
 h3 {
-    font-family: Lobster Two;
+    font-family: 'Qwigley';
     font-weight: 400;
-    font-size: 24pt;
+    font-size: 30pt;
 }
 
 p 
@@ -46,12 +45,39 @@ p
     padding: 10px 15px !important;
 }
 
-a {
-    color: #518dc1;
+.colorful-button {
+    background-color: transparent;
+    border: 1px solid #008080;
+    font-family: 'Pragati Narrow';
+    font-size: 18pt;
+    color: #008080;
+    padding: 8px 15px;
+    font-weight: 400;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 35px;
+    display: inline-block;
 }
-a:hover {
-    color: #518dc1;
-    text-decoration: underline;
+.colorful-button:hover {
+    background-color: #008080;
+    color: #fff;
+    text-decoration: none;
+}
+
+a {
+    color: #008080;
+}
+    a:hover {
+        color: #008080;
+        text-decoration: underline;
+    }
+
+.btn, .ww-button {
+    background-image: none !important;
+    background-color: #008080 !important;
+    color: #ffffff !important;
+    border: 0 !important;
 }
 
 .btn-default, .btn-default:hover {
@@ -68,8 +94,53 @@ td {
     text-align: center;
 }
 
+
+.banner-intro {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    min-height: 900px;
+    position: relative;
+    display: table;
+}
+
+    .banner-intro .banner-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: table-cell;
+        vertical-align: bottom;
+        opacity: 1;
+    }
+
+    .banner-intro h1 {
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .banner-intro p.lead {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .banner-intro .banner-buttons {
+        margin-top: 30px;
+    }
+
+        .banner-intro .banner-buttons a {
+            margin: 5px;
+        }
+
+            .banner-intro .banner-buttons a i {
+                margin-left: 5px;
+            }
+
+
 /* Commented out for Bootstrap 4.4 */
-/*.navbar-brand {
+    /*.navbar-brand {
     display: block;
 }
 .navbar-nav {
@@ -79,10 +150,10 @@ td {
     bottom: 10px;
     left: 40px;
 }*/
-.nav-link {
-    font-family: Lobster Two;
+    .nav-link {
+    font-family: 'Qwigley';
     font-weight: 400;
-    font-size: 22pt;
+    font-size: 32pt;
     margin-left: 10px;
 }
 @media (min-width: 543px) {
@@ -110,13 +181,14 @@ td {
 }
 @media (max-width: 992px) {
     .nav-link {
-        font-size: 20pt;
+        font-size: 25pt;
     }
 }
 @media (max-width: 767px) {
     .nav-link {
-        font-size: 18pt;
+        font-size: 30pt;
         margin-left: 0px;
+        line-height: 30px;
     }
 }
 
@@ -165,10 +237,9 @@ td {
     text-align: center;
 }
 
-#AddressDiv 
-{
+#AddressDiv {
     float: right;
-    font-family: Lobster Two;
+    font-family: 'Qwigley';
     font-weight: 700;
     margin-top: 25px;
     font-size: 16pt;
@@ -191,8 +262,7 @@ td {
 }
 .FooterIcon 
 {
-    width: 62px;
-    height: 62px;
+    width: 40px;
     margin-left: 3px;
     margin-right: 3px;
 }
