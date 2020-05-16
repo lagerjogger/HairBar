@@ -16,7 +16,7 @@
     <title>Hair Bar</title>
 	
 	<!-- Google Web Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,700|Shadows+Into+Light|Bitter' rel='stylesheet' type='text/css' />
+    <link href="https://fonts.googleapis.com/css2?family=Qwigley&family=Pragati+Narrow:wght@400&display=swap" rel="stylesheet" type="text/css" />
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -46,21 +46,51 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="FixedNavbarPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+        <!-- Fixed navbar -->
+	    <div class="pos-f-t">
+		    <div class="collapse" id="navbar-header">
+			    <div class="container bg-inverse p-a-1">
+				    <h3>Collapsed content</h3>
+				    <p>Toggleable via the navbar brand.</p>
+			    </div>
+		    </div>
+		    <nav class="navbar navbar-toggleable-sm navbar-expand-md fixed-top navbar-light bg-light">
+			    <%--<div class="container" style="position: relative;">--%>
+				    <a class="navbar-brand" href="Default.aspx"><img src="images/Logo.png" height="70" width="159" alt="Hair Bar" /></a>
+				    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#CollapsingNavbar">
+                        <span class="navbar-toggler-icon"></span>
+				    </button>
+                
+				    <div class="collapse navbar-collapse" id="CollapsingNavbar">
+					    <ul class="navbar-nav mr-auto">
+						    <li class="nav-item">
+							    <asp:HyperLink ID="ServicesLink" runat="server" NavigateUrl="~/Services.aspx" CssClass="nav-link" Text="Services" />
+						    </li>
+						    <li class="nav-item">
+							    <asp:HyperLink ID="WeddingsLink" runat="server" NavigateUrl="~/Weddings.aspx" CssClass="nav-link" Text="Weddings" />
+						    </li>
+						    <li class="nav-item">
+							    <asp:HyperLink ID="SpecialsLink" runat="server" NavigateUrl="~/Specials.aspx" CssClass="nav-link" Text="Specials" />
+						    </li>
+						    <li class="nav-item">
+							    <asp:HyperLink ID="AboutMeLink" runat="server" NavigateUrl="~/AboutMe.aspx" CssClass="nav-link" Text="About Me" />
+						    </li>
+						    <li class="nav-item">
+							    <asp:HyperLink ID="ContactLink" runat="server" NavigateUrl="~/Contact.aspx" CssClass="nav-link" Text="Contact" />
+						    </li>
+						    <li class="nav-item">
+							    <asp:HyperLink ID="BookOnlineLink" runat="server" NavigateUrl="http://hairbarlouisville.salonrunner.com" CssClass="nav-link" Text="Book Online" />
+						    </li>
+					    </ul>
+				    </div>
+			    <%--</div>--%>
+		    </nav>
+	    </div>
 
 		<!-- Begin page content -->
-		<div class="container">
-			<asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
-		</div>
-
-		<%--
-			<!-- This is a sticky footer -->
-			<footer class="footer">
-			<div class="container">
-				<span class="text-muted">Place sticky footer content here.</span>
-			</div>
-		</footer>--%>
+        <div class="container" id="SubMasterContentContainer">
+		    <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+        </div>
 
         <div id="FooterDiv">
             <%--<div id="FooterDivBackground"></div>--%>
@@ -68,9 +98,8 @@
                 <img src="images/hr.png" border="0" alt="" /><br />
 				<div style="font-weight: bold; margin-bottom: 5px;">Stay connected with me to view my latest work!</div>
                 <a href="https://www.facebook.com/HairBarLouisville" target="_blank"><img src="images/facebook.png" border="0" alt="Find us on Facebook!" class="FooterIcon" /></a>
-                <a href="https://twitter.com/HairbyJenniferC" target="_blank"><img src="images/twitter.png" border="0" alt="Follow us on Twitter!" class="FooterIcon" /></a>
                 <a href="http://instagram.com/HairBarLouisville" target="_blank"><img src="images/instagram.png" border="0" alt="Follow us on Instagram!" class="FooterIcon" /></a>
-				<script type="application/javascript" src="//www.weddingwire.com/assets/vendor/widgets/review-me.js"></script><div style="text-align: center;"><div id="ww-review-me" class="btn btn-primary btn-large" style="margin-top: 10px; display: inline-block;"></div></div><script type="application/javascript">WeddingWire.ensureInit(function () { WeddingWire.reviewMeInit({ "divId": "ww-review-me", "vendor_id": "50d27b698aa41d4a", "buttonColor": "#41a317" }); });</script>
+				<script type="application/javascript" src="//www.weddingwire.com/assets/vendor/widgets/review-me.js"></script><div style="text-align: center;"><div id="ww-review-me" class="btn btn-large" style="margin-top: 10px; display: inline-block;"></div></div><script type="application/javascript">WeddingWire.ensureInit(function () { WeddingWire.reviewMeInit({ "divId": "ww-review-me", "vendor_id": "50d27b698aa41d4a", "buttonColor": "#004c4c" }); });</script>
             </div>
         </div>
 
@@ -85,7 +114,6 @@
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 		<script src="js/ie10-viewport-bug-workaround.js"></script>
 		<asp:ContentPlaceHolder ID="PageFooterScriptsPlaceHolder" runat="server"></asp:ContentPlaceHolder>
-    </div>
     </form>
 </body>
 </html>

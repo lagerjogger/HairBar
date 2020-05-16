@@ -1,146 +1,132 @@
-﻿<%@ Page Title="Hair Bar" Language="VB" MasterPageFile="~/MainMaster.master" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-	<style type="text/css">
-		#Logo {
-			width: 384px;
-			height: 146px;
-		}
-		.BookNowText {
-			font-family: 'Lobster Two';
-			font-size: 22pt;
-			vertical-align: middle;
-			color: #518dc1;
-		}
-		.BookNowButton {
-			margin-left: 10px;
-			margin-top: 10px;
-		}
-		#myCarousel {
-			margin-bottom: 20px;
-		}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Hair Bar</title>
+        <meta name="title" content="Hair Bar Louisville" />
+        <meta name="description" content="Discover Louisville's PREMIER boutique salon! Services include hair coloring and cutting, ombre, extensions, updos, and more!" />
+        <meta name="author" content="Matthew R. Cook" />
 
-		@media (max-width: 543px) {
-			#Logo {
-				width: 275px;
-				height: auto;
-			}
-			.BookNowText {
-				font-size: 18pt;
-			}
-		}
+        <!-- Bootstrap -->
+        <link href="bower_components/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!--plugins-->
+        <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="bower_components/flexslider/flexslider.css" rel="stylesheet">
+        <link href="bower_components/lightbox2/dist/css/lightbox.css" rel="stylesheet">
+        <%--<link href="et-line-icons/style.css" rel="stylesheet">--%>
+        <link href="css/animate.css" rel="stylesheet">        
+        <!--custom css file-->
+        <link href="css/style.css" rel="stylesheet">
 
-		@media (max-width: 991px) {
-			.featurette {
-				margin-bottom: 15px;
-			}
-            .carousel-inner img.reposition {
-                margin-left: -350px;
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Google Web Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Qwigley&family=Pragati+Narrow:wght@400&display=swap" rel="stylesheet" type="text/css">
+
+        <style type="text/css">
+            #main_links {
+                position: absolute;
+                width: 300px;
+                bottom: 200px;
+                right: 0;
+                line-height: 75px;
+                text-align: right;
             }
-		}
-		@media (max-width: 543px) {
-			.featurette {
-				margin-bottom: 25px;
-			}
-            .carousel-inner img.reposition {
-                margin-left: -400px;
+
+            @media (max-width: 768px) {
+                #main_links {
+                    right: 25px;
+                }
             }
-		}
-	</style>
-</asp:Content>
 
-<asp:Content ID="Content2" ContentPlaceHolderID="FixedNavbarPlaceHolder" runat="server">
-</asp:Content>
+            @media (min-height: 400px) {
+                #main_links {
+                    bottom: 10px;
+                }
+            }
+            @media (min-height: 600px) {
+                #main_links {
+                    bottom: 50px;
+                }
+            }
+            @media (min-height: 800px) {
+                #main_links {
+                    bottom: 175px;
+                }
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" style="overflow: hidden;">
+        
+        <!-- Static navbar -->
+        <nav class="navbar header-v1 header-transparent navbar-default navbar-fixed-top sticky">
+            <div class="container">
+                <div>
+                    <div class="navbar-brand">
+                        <a href="Default.aspx">
+                            <img id="logo" src="images/logo2.png" style="width: 275px;" />
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="pull-left hidden-xs hidden-sm" style="margin-top: 45px;">
+                            <a href="https://www.facebook.com/HairBarLouisville" target="_blank"><img src="images/Facebook.png" style="width: 50px;" /></a>
+                            <a href="http://instagram.com/HairBarLouisville" target="_blank"><img src="images/Instagram.png" style="width: 50px;" /></a>
+                        </div>
+                        <div id="MainActionButtonDiv" class="pull-right" style="margin-top: 60px;">
+                            <a id="MainActionButton" class="MainActionButton" href="http://hairbarlouisville.salonrunner.com">Schedule an Appointment!</a>
+                        </div>
+                    </div>
+                </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+        </nav><!--navigation end here-->
+        
+		<section id="home" class="banner-intro banner-slider">
+            <div class="banner-inner">
+                <div style="position: absolute; bottom: 0px; height: 575px; width: 100%;">
+                    <div class="container" style="position: relative; height: 100%;">
+                        <div id="main_links">
+                            <a class="banner-link" href="Services.aspx">Services</a><br />
+                            <a class="banner-link" href="Weddings.aspx">Weddings</a><br />
+                            <a class="banner-link" href="Specials.aspx">Specials</a><br />
+                            <a class="banner-link" href="AboutMe.aspx">About Me</a><br />
+                            <a class="banner-link" href="Contact.aspx">Contact</a><br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<asp:Content ID="Content3" ContentPlaceHolderID="MainContentPlaceHolder" runat="server">
-	<div id="HeaderDiv">
-        <img src="images/Logo2.png" id="Logo" width="384" height="146" alt="Hair Bar" />
-    </div>
-
-	<div class="row" style="text-align: center; margin-bottom: 15px;">
-		<div style="padding: 15px; text-align: center; width: 100%;">
-			<span class="BookNowText" style="">Schedule your appointment online now!</span> 
-			<a href="http://hairbarlouisville.salonrunner.com" class="btn btn-primary btn-lg BookNowButton" target="_blank">Book Now &raquo;</a>
-		</div>
-	</div>
-
-	<div id="myCarousel" class="carousel slide well" data-ride="carousel">
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="1"></li>
-		</ol>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<div class="hero-unit-content">
-					<img id="CouplesChoiceAwardBanner" src="images/5YearsCouplesChoiceAwards_banner.png" alt="" style="width: 100%; height: auto;" />
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img id="MovingBannerImage" src="images/MovingBanner.png" alt="" class="reposition" />
-				<div style="position: absolute; right: 10px; bottom: 10px;">
-					<p style="margin-top: 30px;"><a href="Contact.aspx#Moving" class="btn btn-primary btn-large">Find Out Where &raquo;</a></p>
-				</div>
-			</div>
-			<%--<div class="item">
-				<div class="hero-unit-content">
-					<h1 style="position: absolute; top: 75px; right: 90px; font-family: Shadows Into Light;">Schedule your appointment online!</h1>
-					<p style="position: absolute; top: 135px; right: 90px;"><a href="http://hairbarlouisville.salonrunner.com" class="btn btn-primary btn-large" target="_blank">Book Now &raquo;</a></p>
-				</div>
-			</div>--%>
-		</div>
-	<%--	<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>--%>
-	</div><!-- /.carousel -->
-
-	<div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-6 featurette" style="font-family: Bitter;">
-            <h2><a href="Services.aspx">Services</a></h2>
-            <p>
-                Full service hair salon providing precision cuts, advanced color techniques and styling, facial waxing and more!
-            </p>
-            <p style="margin-top: 20px;"><a class="btn btn-default" href="Services.aspx">Learn more &raquo;</a></p>
+        <div class="hidden-md hidden-lg" style="width: 100%; text-align: center; position: absolute; bottom: 10px;">
+            <a href="https://www.facebook.com/HairBarLouisville" target="_blank"><img src="images/Facebook_light.png" style="width: 35px;" /></a>
+            <a href="http://instagram.com/HairBarLouisville" target="_blank"><img src="images/Instagram_light.png" style="width: 35px;" /></a>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 featurette" style="font-family: Bitter;">
-            <h2><a href="Weddings.aspx">Weddings</a></h2>
-            <p>
-                It would be my honor to be a part of your beauty team on your wedding day! Let me help your morning run more smoothly by taking care of your whole bridal party.
-            </p>
-            <p style="margin-top: 20px;"><a class="btn btn-default" href="Weddings.aspx">Learn more &raquo;</a></p>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 featurette" style="font-family: Bitter;">
-            <h2><a href="Specials.aspx">Specials</a></h2>
-            <p>
-                Click here to view our current specials!
-            </p>
-            <p style="margin-top: 20px;"><a class="btn btn-default" href="Specials.aspx">View specials &raquo;</a></p>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 featurette" style="font-family: Bitter;">
-            <h2><a href="Contact.aspx">Contact</a></h2>
-            <p>(502) 550-3650</p>
-            <p><a href="mailto:HairByJenniferKy@gmail.com">HairByJenniferKy@gmail.com</a></p>
-            <p>
-                11408 Shelbyville Rd, Unit 4<br />
-				Louisville, KY 40243<br /><br />
-            </p>
-            <p style="margin-top: 20px;"><a class="btn btn-default" href="Contact.aspx">View details &raquo;</a></p>
-        </div>
-    </div>
-</asp:Content>
 
-<asp:Content ID="Content4" ContentPlaceHolderID="PageFooterScriptsPlaceHolder" runat="server">
-	<script type="text/javascript">
-		$(document).ready(function () {
-			// carousel demo
-			$('#myCarousel').carousel({
-				interval: 6000
-			});
-		});
-	</script>
-</asp:Content>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="js/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="js/jquery.easing.1.3.min.js" type="text/javascript"></script>
+        <script src="js/jquery.backstretch.min.js" type="text/javascript"></script>
+        <script src="bower_components/bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/smoothscroll.js"></script>
+        <script src="bower_components/wow/dist/wow.min.js"></script>
+        <script src="bower_components/lightbox2/dist/js/lightbox.min.js" type="text/javascript"></script>
+        
+        <script src="js/modernizr.custom.97074.js" type="text/javascript"></script>
+        <script src="js/parallax.min.js" type="text/javascript"></script>
+        <script src="js/custom.js" type="text/javascript"></script>
+        <!-- Vimeo video API -->
+        <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+        <script type="text/javascript" src="js/vimeo.js"></script>
+    </body>
+</html>
