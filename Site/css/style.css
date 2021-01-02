@@ -412,6 +412,7 @@ ul.contact-method-list li:hover a {
 
   .header-v1 .navbar-collapse, .header-v1 .navbar-form {
     border: 0px;
+    width: 100%;
   }
 
   .header-v2 .navbar-nav {
@@ -1057,9 +1058,9 @@ ul.contact-method-list li:hover a {
   }
 }
 @media (max-width: 375px) {
-  .input-group .form-control, .input-group-addon, .input-group-btn {
+  /*.input-group .form-control, .input-group-addon, .input-group-btn {
     display: inherit;
-  }
+  }*/
 
   .assan-contactus .form-control {
     margin-bottom: 10px;
