@@ -178,10 +178,10 @@
         <script src="js/custom.js" type="text/javascript"></script>
 
         <script type="text/javascript">
-            $(document).ready(function () {
-                if (typeof localStorage.getItem("FirstVisitModalShown") === "undefined" || !localStorage.getItem("FirstVisitModalShown"))
-                    var modalTimeout = setTimeout(function () { $("#FirstVisitModal").modal("show"); localStorage.setItem("FirstVisitModalShown", true); }, 2000);
-            });
+            //$(document).ready(function () {
+            //    if (typeof localStorage.getItem("FirstVisitModalShown") === "undefined" || !localStorage.getItem("FirstVisitModalShown"))
+            //        var modalTimeout = setTimeout(function () { $("#FirstVisitModal").modal("show"); localStorage.setItem("FirstVisitModalShown", true); }, 2000);
+            //});
 
             const $dropdown = $(".dropdown");
             const $dropdownToggle = $(".dropdown-toggle");
