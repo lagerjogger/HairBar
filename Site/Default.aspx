@@ -126,7 +126,7 @@
                             <asp:UpdatePanel ID="NewsletterUpdatePanel" runat="server" ChildrenAsTriggers="true" UpdateMode="Always">
                                 <ContentTemplate>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute; top: 10px; right: 15px;"><span aria-hidden="true">&times;</span></button>
-                                    <div id="FirstVisitModalImageDiv"><img src="images/Caitlin.jpg" style="width: 100%; max-width: 400px; margin-bottom: -10px;" /></div>
+                                    <div id="FirstVisitModalImageDiv"><img src="images/NewClientPopup.jpg" style="width: 100%; max-width: 400px; margin-bottom: -10px;" /></div>
                                     <div class="FirstVisitModalTextDiv">
                                         <asp:MultiView runat="server" ActiveViewIndex="0" ID="NewsletterMultiView">
                                             <asp:View runat="server" ID="SignUpView">

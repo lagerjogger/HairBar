@@ -163,6 +163,7 @@ td {
     -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     -ms-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0;
 }
 
 .navbar-inner {
@@ -295,16 +296,26 @@ td {
         .header-v1 .navbar-nav > li:not(:first-child) {
             margin-left: 18px;
         }
+
         #BookNowButton {
             margin-left: 10px;
         }
 
         .header-v1 .navbar-nav > li > a {
-            font-size: 18pt;
+            font-size: 24pt;
         }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 875px) {
+        .header-v1 .navbar-nav > li > a {
+            font-size: 20pt;
+        }
+        .header-v1 .navbar-brand img {
+            width: 160px;
+        }
+    }
+
+    @media (max-width: 767px) {
         .navbar {
             margin-bottom: 0px;
         }
@@ -330,13 +341,14 @@ td {
                 margin-left: 18px;
                 font-size: 34pt;
             }
-            #BookNowButton {
-                margin-top: 10px;
-            }
 
-                .header-v1 .navbar-nav > li > a {
-                    font-size: 24pt;
-                }
+        #BookNowButton {
+            margin-top: 10px;
+        }
+
+        .header-v1 .navbar-nav > li > a {
+            font-size: 24pt;
+        }
     }
 
     /* Commented out for Bootstrap 4.4 */
@@ -364,7 +376,7 @@ td {
         }
     }
 
-    @media (max-width: 543px) {
+    @media (max-width: 767px) {
         .header-v1 .navbar-brand img {
             width: 160px;
         }
@@ -377,7 +389,7 @@ td {
         }
     }
 
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
         .nav-link {
             font-size: 25pt;
         }
@@ -457,9 +469,10 @@ td {
         margin: 0 auto;
         text-align: center;
     }
-    #FooterDivContent .fa {
-        font-size: 30pt;
-    }
+
+        #FooterDivContent .fa {
+            font-size: 30pt;
+        }
 
     .FooterIcon {
         width: 40px;
