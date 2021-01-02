@@ -9,7 +9,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContentPlaceHolder" Runat="Server">
-    <h2>About Me</h2>
+    <h2>About Jennifer</h2>
 
     <div class="row">
         <div class="col-sm-12">
@@ -45,8 +45,14 @@
         </div>
     </div>
     <div class="row">
+        <div class="col-sm-12" style="text-align: center; font-size: 10pt;">
+            <img src="images/cook_family040.jpg" style="width: 100%; max-width: 700px;" /><br />
+            <a href="https://www.melissaandgary.com/" target="_blank">Image courtesy of Melissa & Gary Photography</a>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-sm-12" style="text-align: center;">
-            <img src="images/family.jpg" style="width: 100%; max-width: 500px;" />
+            <a href="https://app.salonrunner.com/customer/home/hairbarlouisville/index.htm" class="btn btn-primary">Book with Jennifer!</a><a href="OurTeam.aspx" class="btn btn-primary" style="margin-left: 10px;">View Other Team Members</a>
         </div>
     </div>
 </asp:Content>

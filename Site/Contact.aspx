@@ -18,10 +18,10 @@
 	<div class="row">
 		<div class="col-md-12 col-lg-5">
 			<p><strong>Phone:</strong> (502) 550-3650</p>
-			<p><strong>Email:</strong> <a href="mailto:HairByJenniferKy@gmail.com">HairByJenniferKy@gmail.com</a></p>
-			<p>
-				<a href="https://www.facebook.com/HairBarLouisville" target="_blank"><img src="images/facebook.png" border="0" alt="Find us on Facebook!" class="FooterIcon" /></a>
-				<a href="http://instagram.com/HairBarLouisville" target="_blank"><img src="images/instagram.png" border="0" alt="Follow us on Instagram!" class="FooterIcon" /></a>
+			<p><strong>Email:</strong> <a href="mailto:hairbarlouisville@gmail.com">hairbarlouisville@gmail.com</a></p>
+			<p style="font-size: 24pt;">
+                <a href="https://www.facebook.com/HairBarLouisville" target="_blank" style="margin-right: 5px;"><span class="fa fa-facebook-square"></span></a>
+                <a href="http://instagram.com/HairBarLouisville" target="_blank"><span class="fa fa-instagram"></span></a>
 			</p>
 
 			<h3>Send us a message</h3>
@@ -38,7 +38,7 @@
 				Message: <br />
 				<asp:TextBox ID="ContactMessageTextBox" runat="server" TextMode="MultiLine" Rows="6" style="width: 95%;" />
 			</p>
-			<p style="text-align: center;"><asp:LinkButton ID="SubmitFormButton" runat="server" CssClass="btn">Submit &raquo;</asp:LinkButton></p>
+			<p style="text-align: center;"><asp:LinkButton ID="SubmitFormButton" runat="server" CssClass="btn btn-primary" style="font-size: 20pt; padding-bottom: 0px;">Submit &raquo;</asp:LinkButton></p>
 		</div>
 		<div class="col-md-12 col-lg-7">
 			<p>

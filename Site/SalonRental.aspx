@@ -16,7 +16,7 @@
     </div>
     <div class="row">
         <div class="col-md-8">
-            <p>If you need a space to get ready in, you are invited to use my salon! There is plenty of room for everyone including your makeup artist and photographer. I provide drinks -- water, coffee, soft drinks, wine, mimosas. You are welcome to bring food or anything else to make yourself comfortable for the day.</p>
+            <p>If you need a space to get ready in, you are invited to use our salon! There is plenty of room for everyone including your makeup artist and photographer. We provide drinks -- water, coffee, soft drinks, wine, mimosas. You are welcome to bring food or anything else to make yourself comfortable for the day.</p>
             <h3>Salon Rental Rates</h3>
             <table class="table">
                 <tr>
@@ -32,6 +32,7 @@
                     <td>$200</td>
                 </tr>
             </table>
+            <p>*Must be booked at least 3 months in advance.</p>
         </div>
         <div class="col-md-4 d-none d-md-block" style="text-align: center; font-size: 10pt;">
             <img src="images/kutchi_ready036.jpg" style="width: 100%;" /><br />
@@ -42,9 +43,8 @@
         <div class="col-sm-12"><h3>Salon Interior</h3></div>
     </div>
     <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-4"><img src="images/SalonRental1.jpg" style="width: 100%;" /></div>
-        <div class="col-sm-12 col-md-6 col-lg-4"><img src="images/SalonRental2.jpg" style="width: 100%;" /></div>
-        <div class="col-sm-12 col-md-6 col-lg-4"><img src="images/SalonRental3.jpg" style="width: 100%;" /></div>
+        <div class="col-sm-12 col-md-6"><img src="images/SalonRental2.jpg" style="width: 100%;" /></div>
+        <div class="col-sm-12 col-md-6"><img src="images/SalonRental3.jpg" style="width: 100%;" /></div>
     </div>
     <div style="text-align: center; margin-top:20px;">
         <a href="Weddings.aspx" class="colorful-button">Back to the Weddings page</a>

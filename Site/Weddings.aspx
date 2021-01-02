@@ -7,9 +7,9 @@
 	<h2>Weddings</h2>
 	<div class="row">
 		<div class="col-md-6 col-lg-7">
-            <p>Your wedding day is one of the most important events of your life, and I would be honored to be a part of it! I understand all the stress and pressure of planning such a monumental event -- the last thing you need to worry about is if your vision of walking down the aisle will come together on the big day.</p>
-            <p><em>I can assure that if you choose me as your wedding day stylist, you will have one less thing to worry about.</em></p>
-            <p>I have been a hairstylist for <%=Math.Floor(DateDiff(DateInterval.Day, Date.Parse("10/1/2005"), Now) / 365.25) %> years, and I specialize in bridal and special occasion hair. Your wedding day should be as stress-free as possible; that’s why I’ll travel to you and do hair for anyone who wants to feel pretty for your big day! My goal is to ensure you and your bridal party go the whole day without worrying about how you look, from your first pictures through your reception.</p>
+            <p>Your wedding day is one of the most important events of your life, and we would be honored to be a part of it! We understand all the stress and pressure of planning such a monumental event -- the last thing you need to worry about is if your vision of walking down the aisle will come together on the big day.</p>
+            <p><em>We can assure that if you choose Hair Bar for your wedding day stylist, you will have one less thing to worry about.</em></p>
+            <p>Your wedding day should be as stress-free as possible; that’s why we’ll travel to you and do hair for anyone who wants to feel pretty for your big day! Our goal is to ensure you and your bridal party go the whole day without worrying about how you look, from your first pictures through your reception.</p>
 		</div>
         <div class="col-md-6 col-lg-5" style="text-align: center; font-size: 10pt;">
             <img src="images/wedding2.jpg" style="width: 100%;" /><br />
@@ -39,15 +39,15 @@
                 </tr>
 			    <tr>
 				    <td>Bridal Hair (includes trial)</td>
-				    <td style="text-align: right;">$170</td>
+				    <td style="text-align: right;">$150-$170</td>
 			    </tr>
 			    <tr class="table-alternate-row">
 				    <td>Bridal Party Hair</td>
-				    <td style="text-align: right;">$75</td>
+				    <td style="text-align: right;">$60-$75</td>
 			    </tr>
 			    <tr>
 				    <td>Short Hair Styles</td>
-				    <td style="text-align: right;">$50</td>
+				    <td style="text-align: right;">$40-$50</td>
 			    </tr>
 			    <tr class="table-alternate-row">
 				    <td>Flowergirl Hair (10 and under)</td>
@@ -111,8 +111,8 @@
 	</div>
     <div class="row" style="margin-top: 25px;">
         <div class="col-xs-12 col-sm-12" style="text-align: center;">
-			<h3>View My Work</h3>
-			<p>The best place to view my work is on my Facebook and Instagram pages.</p>
+			<h3>View Our Work</h3>
+			<p>The best place to view our work is on our Facebook and Instagram pages.</p>
 			<p style="text-align: center;"><a href="https://www.facebook.com/HairBarLouisville" target="_blank"><img src="images/facebook.png" border="0" alt="Find us on Facebook!" class="FooterIcon" /></a> <a href="http://instagram.com/HairBarLouisville" target="_blank"><img src="images/instagram.png" border="0" alt="Follow us on Instagram!" class="FooterIcon" /></a></p>
 			<p>Make sure you follow me while you're there!</p>
         </div>
