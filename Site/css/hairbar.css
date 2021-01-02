@@ -43,6 +43,9 @@ p
 
 .ww-button {
     padding: 10px 15px !important;
+    font-family: 'Qwigley' !important;
+    font-size: 24pt !important;
+    font-weight: normal !important;
 }
 
 .colorful-button {
@@ -78,6 +81,12 @@ a {
     background-color: #008080 !important;
     color: #ffffff !important;
     border: 0 !important;
+}
+
+.btn-primary {
+    color: #008080;
+    font-family: 'Qwigley';
+    font-size: 24pt;
 }
 
 .btn-default, .btn-default:hover {
@@ -139,7 +148,198 @@ td {
             }
 
 
-/* Commented out for Bootstrap 4.4 */
+.backstretch img {
+    top: 0 !important;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    margin-bottom: 0px;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-inner {
+    background-color: #ffffff;
+    padding-bottom: 0;
+}
+
+.header-v1 .navbar-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header-v1 .navbar-brand {
+    padding: 0px 15px;
+}
+
+    .header-v1 .navbar-brand img {
+        width: 200px;
+    }
+
+.header-v1 .navbar-nav > li {
+    list-style-type: none;
+}
+
+    .header-v1 .navbar-nav > li:not(:first-child) {
+        margin-left: 30px;
+    }
+
+#BookNowButton {
+    margin-left: 20px;
+}
+#BookNowButtonLink {
+    color: #ffffff;
+    background-color: #008080;
+    border-radius: 5px;
+    padding: 5px 8px 0px 8px;
+}
+
+    .header-v1 .navbar-nav > li > a:hover {
+        color: #444444;
+        text-decoration: none;
+    }
+
+    .header-v1 .navbar-nav li  a {
+        font-family: 'Qwigley';
+        color: #888888;
+        font-size: 25pt;
+    }
+
+.header-v1 .navbar-nav > li {
+    line-height: 35px;
+}
+
+#ServicesSubmenu {
+    text-align: center;
+}
+@media (max-width: 768px) {
+    #ServicesSubmenu {
+        text-align: left;
+    }
+}
+
+    .navbar-collapse.in {
+        overflow-y: hidden;
+    }
+
+    .navbar-collapse {
+        padding-top: 20px;
+    }
+
+    .navbar-nav {
+        background-color: #ffffff;
+    }
+
+    .header-v1 .navbar-nav {
+        padding-inline-start: 0px !important;
+    }
+
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+        color: #444444;
+        background-color: transparent;
+    }
+
+    #logo {
+        background: #fff;
+        -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+        -ms-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+    }
+
+    #FirstVisitModalImageDiv {
+        width: 38%;
+        float: left;
+    }
+
+    .FirstVisitModalTextDiv {
+        width: 62%;
+        float: left;
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    #social {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 40pt;
+    }
+
+        #social a, #social a:active, #social a:hover, #social a:visited {
+            color: #ffffff;
+            text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+        }
+
+    @media (max-width: 991px) {
+        #FirstVisitModalImageDiv {
+            display: none;
+        }
+
+        .FirstVisitModalTextDiv {
+            width: 100%;
+        }
+
+        .header-v1 .navbar-nav > li:not(:first-child) {
+            margin-left: 18px;
+        }
+        #BookNowButton {
+            margin-left: 10px;
+        }
+
+        .header-v1 .navbar-nav > li > a {
+            font-size: 18pt;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .navbar {
+            margin-bottom: 0px;
+        }
+
+        .header-v1 .navbar-nav {
+            padding-bottom: 15px;
+        }
+
+        .navbar-inner {
+            -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            -ms-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            background-color: #ffffff;
+            padding-bottom: 5px;
+        }
+
+        .header-v1 .navbar-nav {
+            padding-bottom: 15px;
+        }
+
+            .header-v1 .navbar-nav > li {
+                margin-left: 18px;
+                font-size: 34pt;
+            }
+            #BookNowButton {
+                margin-top: 10px;
+            }
+
+                .header-v1 .navbar-nav > li > a {
+                    font-size: 24pt;
+                }
+    }
+
+    /* Commented out for Bootstrap 4.4 */
     /*.navbar-brand {
     display: block;
 }
@@ -151,118 +351,118 @@ td {
     left: 40px;
 }*/
     .nav-link {
-    font-family: 'Qwigley';
-    font-weight: 400;
-    font-size: 32pt;
-    margin-left: 10px;
-}
-@media (min-width: 543px) {
-    #CollapsingNavbar {
-        height: auto !important;
-        margin-left: 30px;
+        font-family: 'Qwigley';
+        font-weight: 400;
+        font-size: 32pt;
+        margin-left: 10px;
     }
-}
 
-@media (max-width: 543px) {
-    .navbar {
-        padding: 16px;
+    @media (min-width: 543px) {
+        #CollapsingNavbar {
+            height: auto !important;
+            margin-left: 30px;
+        }
     }
-    .navbar-brand {
-        position: absolute;
-        top: 0px;
-        right: 10px;
+
+    @media (max-width: 543px) {
+        .header-v1 .navbar-brand img {
+            width: 160px;
+        }
+
+        .navbar-nav {
+            position: relative;
+            bottom: auto;
+            left: auto;
+            margin-top: 10px;
+        }
     }
-    .navbar-nav {
-        position: relative;
-        bottom: auto;
-        left: auto;
-        margin-top: 10px;
+
+    @media (max-width: 992px) {
+        .nav-link {
+            font-size: 25pt;
+        }
     }
-}
-@media (max-width: 992px) {
-    .nav-link {
-        font-size: 25pt;
+
+    @media (max-width: 767px) {
+        .nav-link {
+            font-size: 30pt;
+            margin-left: 0px;
+            line-height: 30px;
+        }
     }
-}
-@media (max-width: 767px) {
-    .nav-link {
-        font-size: 30pt;
-        margin-left: 0px;
-        line-height: 30px;
-    }
-}
 
 
-#SubMasterContentContainer {
-    margin-top: 120px;
-}
-@media (max-width: 543px) {
     #SubMasterContentContainer {
-        margin-top: 90px;
+        margin-top: 120px;
     }
-}
+
+    @media (max-width: 543px) {
+        #SubMasterContentContainer {
+            margin-top: 90px;
+        }
+    }
 
 
-.table-alternate-row 
-{
-    background: rgb(209, 211, 211); /* Fallback for older browsers without RGBA-support */
-    background: rgba(255, 255, 255, 0.5);
-}
+    .table-alternate-row {
+        background: rgb(209, 211, 211); /* Fallback for older browsers without RGBA-support */
+        background: rgba(255, 255, 255, 0.5);
+    }
 
-.iframe-rwd  {
-    position: relative;
-    padding-bottom: 65.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-.iframe-rwd iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+    .iframe-rwd {
+        position: relative;
+        padding-bottom: 65.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
 
-#ContactAddressDiv 
-{
-    padding-bottom: 25px;
-}
+        .iframe-rwd iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
 
-.error 
-{
-    color: #c00000;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-}
+    #ContactAddressDiv {
+        padding-bottom: 25px;
+    }
 
-#AddressDiv {
-    float: right;
-    font-family: 'Qwigley';
-    font-weight: 700;
-    margin-top: 25px;
-    font-size: 16pt;
-}
+    .error {
+        color: #c00000;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+    }
 
-#FooterDiv 
-{
-    position: relative;
-    width: 100%;
-    margin-top: 25px;
-    margin-bottom: 0px;
-}
-#FooterDivContent 
-{
-    position: relative;
-    color: inherit;
-    padding: 10px 10px 40px 10px;
-    margin: 0 auto;
-    text-align: center;
-}
-.FooterIcon 
-{
-    width: 40px;
-    margin-left: 3px;
-    margin-right: 3px;
-}
+    #AddressDiv {
+        float: right;
+        font-family: 'Qwigley';
+        font-weight: 700;
+        margin-top: 25px;
+        font-size: 16pt;
+    }
+
+    #FooterDiv {
+        position: relative;
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+
+    #FooterDivContent {
+        position: relative;
+        color: inherit;
+        padding: 10px 10px 40px 10px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #FooterDivContent .fa {
+        font-size: 30pt;
+    }
+
+    .FooterIcon {
+        width: 40px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }

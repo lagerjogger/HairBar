@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $(window).scroll(function(){
         //$(".banner-inner, .newsletter-home-text").css("opacity", 1 - $(window).scrollTop() / 350);
-        $(".header-v1.sticky").css("background-color", "rgba(255,255,255," + (.6 + $(window).scrollTop() / 2000).toString());
+        //$(".header-v1.sticky").css("background-color", "rgba(255,255,255," + (.6 + $(window).scrollTop() / 2000).toString());
     });
     //parallax
     if (!Modernizr.touch) {
@@ -10,11 +10,22 @@ $(document).ready(function () {
     }
     //backstretch background slideshow using for banner intro
     $('.banner-slider').backstretch([
-        "images/salon3.jpg"/*,
+        "images/MainBackground.jpg"/*,
         "images/bg2.jpg"*/
     ], {
         fade: 750,
         duration: 3000
+    });
+
+    // Change the header to container-fluid on smaller screens
+    $(window).on("load resize", function() {
+        if (this.matchMedia("(min-width: 991px)").matches) {
+            $(".navbar-inner").removeClass("container-fluid");
+            $(".navbar-inner").addClass("container");
+        } else {
+            $(".navbar-inner").removeClass("container");
+            $(".navbar-inner").addClass("container-fluid");
+        }
     });
     
     //animated fixed header   
@@ -47,18 +58,18 @@ $(document).ready(function () {
         });
     });
 //Auto Close Responsive Navbar on Click
-    function close_toggle() {
-        if ($(window).width() <= 768) {
-            $('.navbar-collapse a').on('click', function () {
-                $('.navbar-collapse').collapse('hide');
-            });
-        }
-        else {
-            $('.navbar .navbar-default a').off('click');
-        }
-    }
-    close_toggle();
-    $(window).resize(close_toggle);
+    //function close_toggle() {
+    //    if ($(window).width() <= 768) {
+    //        $('.navbar-collapse a').on('click', function () {
+    //            $('.navbar-collapse').collapse('hide');
+    //        });
+    //    }
+    //    else {
+    //        $('.navbar .navbar-default a').off('click');
+    //    }
+    //}
+    //close_toggle();
+    //$(window).resize(close_toggle);
 
 
 //Newsletter

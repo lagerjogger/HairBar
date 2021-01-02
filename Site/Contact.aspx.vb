@@ -15,7 +15,7 @@ Partial Class Contact
             Dim Message As New MailMessage()
 
             Message.From = New MailAddress("webmaster@hairbarlouisville.com")
-            Message.To.Add("HairByJenniferKy@gmail.com")
+            Message.To.Add("hairbarlouisville@gmail.com")
 
             Message.Subject = "Website Comment"
             Message.Body = "Message from: " & ContactEmailTextBox.Text & vbCrLf & "Phone: " & ContactPhoneTextBox.Text & vbCrLf & vbCrLf & ContactMessageTextBox.Text
