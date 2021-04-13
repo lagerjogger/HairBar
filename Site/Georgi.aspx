@@ -28,7 +28,7 @@
                 I love having conversations with my clients! So all the talk is always what I love doing while doing hair.
             </p>--%>
             <p>
-                <strong>When you're not behind the chair you’re likely..?</strong><br />
+                <strong>When you're not behind the chair you’re likely...?</strong><br />
                 At home curled up with a book
             </p>
             <%--<p>

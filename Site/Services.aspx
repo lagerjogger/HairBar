@@ -14,6 +14,8 @@
 
     <div class="row">
 	    <div class="col-sm-12 col-md-8 col-lg-9" style="margin-bottom: 25px;">
+            <p>At Hair Bar, our stylists work on a level system. All of our stylists are extremely talented and constantly continuing their education on the latest techniques and best practices. However, some have more demand on their time than others and their prices reflect that. We have a stylist to fit everyone's budget!</p>
+
 		    <table style="width: 100%;">
 			    <tr>
 				    <td colspan="2"><h3>Styling</h3></td>
@@ -159,6 +161,20 @@
 				    <td colspan="2">*Prices subject to change without notice.</td>
 			    </tr>
 		    </table>
+
+            <p style="margin-top: 30px;"><strong>Cancellation Policy</strong></p>
+
+            <p>When appointments are missed, or cancelled on short notice, we’re often unable to fill the vacancy, causing substantial financial impact to your stylist and the business.</p>
+
+            <p>Should you need to cancel or reschedule your appointment with us, we request 48 hours notice. Cancellations with less than 48 hours notice will result in a fee of $25 per haircut service and $50 per color service and will be due before your next appointment is scheduled.</p>
+
+            <p><strong>Retail Exchange Policy</strong></p>
+
+            <p>We love our products and try our best to recommend products that will help you achieve great hair days everyday! If you are having any problems with your hair care products, let us know and we are happy to exchange them for a product of equal value that will work better for you within 14 days.</p>
+
+            <p><strong>Redo policy</strong></p>
+
+            <p>At Hair Bar, we strive to offer our clients the highest level of satisfaction with their services, If you are having challenges with your cut or color, let us know within 7 days of your visit and your stylist will be happy to correct any issues at no additional charge.</p>
 	    </div>
 	    <div class="col-sm-12 col-md-4 col-lg-3">
 		    <h3>Proud to Carry</h3>

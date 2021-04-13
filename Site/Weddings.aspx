@@ -106,6 +106,9 @@
                     </div>
                 </div>
                 <script>wpShowReviews(708509, "red");</script>
+                <div style="text-align: center; margin-top: 20px;">
+                    <a target="_blank" href="https://www.theknot.com/marketplace/redirect-820633?utm_source=vendor_website&utm_medium=banner&utm_term=fa286d20-a1af-4615-a32f-a3d30106f8af&utm_campaign=vendor_badge_assets"><img alt="Couples love us! See our reviews on The Knot." border="0" src="https://www.xoedge.com/myaccount/2019/website-share/VendorBadge_CouplesLoveUs.png" width="190"></a>
+                </div>
             </div>
 		</div>
 	</div>
@@ -114,7 +117,7 @@
 			<h3>View Our Work</h3>
 			<p>The best place to view our work is on our Facebook and Instagram pages.</p>
 			<p style="text-align: center;"><a href="https://www.facebook.com/HairBarLouisville" target="_blank"><img src="images/facebook.png" border="0" alt="Find us on Facebook!" class="FooterIcon" /></a> <a href="http://instagram.com/HairBarLouisville" target="_blank"><img src="images/instagram.png" border="0" alt="Follow us on Instagram!" class="FooterIcon" /></a></p>
-			<p>Make sure you follow me while you're there!</p>
+			<p>Make sure you follow us while you're there!</p>
         </div>
     </div>
     <%--<div class="row" style="margin-top: 25px;">
