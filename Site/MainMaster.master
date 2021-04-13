@@ -46,6 +46,8 @@
     	    ga('create', 'UA-55683578-1', 'auto');
     	    ga('send', 'pageview');
         </script>
+        <!-- Global site tag (gtag.js) - Google Ads: 956432178 -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-956432178"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-956432178'); </script>
 
         <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
     </head>
@@ -98,7 +100,7 @@
                 <%--<div id="FooterDivBackground"></div>--%>
                 <div id="FooterDivContent" class="container">
                     <img src="images/hr.png" border="0" alt="" /><br />
-				    <div style="font-weight: bold; margin-bottom: 5px;">Stay connected with me to view my latest work!</div>
+				    <div style="font-weight: bold; margin-bottom: 5px;">Stay connected with us to view our latest work!</div>
                     <a href="https://www.facebook.com/HairBarLouisville" target="_blank" style="margin-right: 10px;"><span class="fa fa-facebook-square"></span></a>
                     <a href="http://instagram.com/HairBarLouisville" target="_blank"><span class="fa fa-instagram"></span></a>
 				    <script type="application/javascript" src="//www.weddingwire.com/assets/vendor/widgets/review-me.js"></script><div style="text-align: center;"><div id="ww-review-me" class="btn btn-large" style="margin-top: 10px; display: inline-block;"></div></div><script type="application/javascript">WeddingWire.ensureInit(function () { WeddingWire.reviewMeInit({ "divId": "ww-review-me", "vendor_id": "50d27b698aa41d4a", "buttonColor": "#004c4c" }); });</script>

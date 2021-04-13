@@ -11,25 +11,25 @@
         <div class="col-sm-12 col-md-8 col-lg-6">
             <h3>Caitlin</h3>
 
-            <%--<p>
-                <strong>What's your favorite service to do?</strong><br />
-                Balayage,highlights and any color
+            <p>
+                <strong>What is your favorite part of working here?</strong><br />
+                My favorite part about working at Hair Bar is the people. I love the ladies that work here and the clientele is amazing.
             </p>
             <p>
-                <strong>What do you love about being in the beauty industry?</strong><br />
-                Lets me be artistic and creative and allows me to help others feel good about themselves
+                <strong>What’s something fun you would want clients to know about you?</strong><br />
+                Fun Fact: I’m getting married this year!
             </p>
             <p>
-                <strong>What made you choose a career in the industry?</strong><br />
-                I love everything to do with hair and makeup it makes me happy to see others enjoy their hair
+                <strong>When you’re not at work you’re likely...?</strong><br />
+                When I’m not at work you’re most likely to find me at home with my kids crafting or cleaning!
             </p>
-            <%--<p>
-                <strong>What’s something fun you would want your clients to know about you?</strong><br />
-                I love having conversations with my clients! So all the talk is always what I love doing while doing hair.
-            </p>--%
             <p>
-                <strong>When you're not behind the chair you’re likely..?</strong><br />
-                At home curled up with a book
+                <strong>What’s your favorite quote?</strong><br />
+                Be fearless in the pursuit of what sets your soul on fire. - Jennifer Lee
+            </p>
+            <p>
+                <strong>How would your best friend/spouse describe you?</strong><br />
+                My best friend would describe me as fun, loyal and loving.
             </p>
             <%--<p>
                 <strong>What’s your favorite quote?</strong><br />
@@ -38,7 +38,7 @@
             <p>
                 <strong>How would your best friend/ spouse describe you?</strong><br />
                 Very outgoing and quite talkative and always wants people to feel their best no matter the situation.
-            </p>--%--%>
+            </p>
         </div>
     </div>
     <div class="row" style="margin-top: 20px;">

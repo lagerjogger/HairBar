@@ -9,7 +9,7 @@
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Hair Bar</title>
         <meta name="title" content="Hair Bar Louisville" />
-        <meta name="description" content="Discover Louisville's PREMIER boutique salon! Services include hair coloring and cutting, ombre, extensions, updos, and more!" />
+        <meta name="description" content="Wedding hair, hair extensions, balayage, custom cuts and color, Keune salon located in Louisville, KY" />
         <meta name="author" content="Matthew R. Cook" />
 
         <!-- Bootstrap -->
@@ -38,8 +38,8 @@
         <style type="text/css">
             #NewClientBanner {
                 position: absolute;
-                top: 250px;
-                left: 10%;
+                top: 200px;
+                right: 5%;
                 padding: 20px;
                 color: #222e62;
                 font-family: "Anton";
@@ -51,6 +51,25 @@
                 border-radius: 8px;
             }
             #NewClientBanner h2 {
+                color: #222e62;
+                font-family: "Anton";
+            }
+
+            #GettingMarriedBanner {
+                position: absolute;
+                top: 450px;
+                right: 5%;
+                padding: 20px;
+                color: #222e62;
+                font-family: "Anton";
+                font-size: 1.3em;
+                text-align: center;
+                text-shadow: 0px 0px 5px rgba(255,255,255, 0.4);
+                border: 2px solid #ffffff;
+                background-color: rgba(255,255,255,.8);
+                border-radius: 8px;
+            }
+            #GettingMarriedBanner h2 {
                 color: #222e62;
                 font-family: "Anton";
             }
@@ -67,6 +86,10 @@
     	    ga('create', 'UA-55683578-1', 'auto');
     	    ga('send', 'pageview');
         </script>
+        <!-- Global site tag (gtag.js) - Google Ads: 956432178 -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-956432178"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-956432178'); </script>
+        <!-- Event snippet for Website traffic conversion page -->
+        <script> gtag('event', 'conversion', {'send_to': 'AW-956432178/ep5CCLqbofMBELL-h8gD'}); </script>
     </head>
     <body data-spy="scroll" style="overflow: hidden;">
         
@@ -107,6 +130,10 @@
             <div class="banner-inner">
                 <div id="NewClientBanner" class="animate__animated animate__fadeInUp" style="cursor: pointer;" onclick="window.location.href='NewClients.aspx';">
                     <h2>New Client?</h2>
+                    <strong>Start Here!</strong>
+                </div>
+                <div id="GettingMarriedBanner" class="animate__animated animate__fadeInUp" style="cursor: pointer;" onclick="window.location.href='Weddings.aspx';">
+                    <h2>Getting Married?</h2>
                     <strong>Start Here!</strong>
                 </div>
             </div>
@@ -178,10 +205,10 @@
         <script src="js/custom.js" type="text/javascript"></script>
 
         <script type="text/javascript">
-            $(document).ready(function () {
-                if (typeof localStorage.getItem("FirstVisitModalShown") === "undefined" || !localStorage.getItem("FirstVisitModalShown"))
-                    var modalTimeout = setTimeout(function () { $("#FirstVisitModal").modal("show"); localStorage.setItem("FirstVisitModalShown", true); }, 2000);
-            });
+            //$(document).ready(function () {
+            //    if (typeof localStorage.getItem("FirstVisitModalShown") === "undefined" || !localStorage.getItem("FirstVisitModalShown"))
+            //        var modalTimeout = setTimeout(function () { $("#FirstVisitModal").modal("show"); localStorage.setItem("FirstVisitModalShown", true); }, 2000);
+            //});
 
             const $dropdown = $(".dropdown");
             const $dropdownToggle = $(".dropdown-toggle");
